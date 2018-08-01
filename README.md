@@ -24,10 +24,11 @@ The following links correspond to the various Google Docs whose text populates t
 4. Changes you make to the Google Doc will be updated in real time, so make sure all your content is ready to go live!
 
 ## PAGE TEMPLATES
+The below templates are for ease of use when editing the Google Docs. Copy them below into their respective documents and fill in your content.
 
 ### News Page
 
-#####
+\#####
 ##headline
 //enter headline here
 
@@ -39,3 +40,54 @@ The following links correspond to the various Google Docs whose text populates t
 
 ##link
 //enter link here
+
+### Research Page
+
+\#####
+##title
+//enter project title here
+
+##description
+//enter project description here
+
+##link
+//enter link to project page here
+
+##image
+//enter link to image here
+
+### Publications Page
+
+\#####
+
+##title
+//enter publication title here
+
+##authors
+//enter authors here
+
+##abstract
+//enter abstract here
+
+##citation
+//enter BibTeX citation here
+
+##link
+//enter link to publication here
+
+
+### Personnel Page
+
+\#####
+
+##name
+//enter first and last name here
+
+##subtitle
+//enter subtitle or position here
+
+##description
+//enter a bio or description here
+
+##image
+//enter a link to an image of yourself
