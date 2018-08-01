@@ -29,6 +29,7 @@ The below templates are for ease of use when editing the Google Docs. Copy them 
 ### News Page
 
 \#####
+
 ##headline
 
 //enter headline here
@@ -48,6 +49,7 @@ The below templates are for ease of use when editing the Google Docs. Copy them 
 ### Research Page
 
 \#####
+
 ##title
 
 //enter project title here
