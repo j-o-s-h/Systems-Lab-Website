@@ -30,30 +30,41 @@ The below templates are for ease of use when editing the Google Docs. Copy them 
 
 \#####
 ##headline
+
 //enter headline here
 
 ##date
+
 //enter date here
 
 ##description
+
 //enter description here
 
 ##link
+
 //enter link here
 
 ### Research Page
 
 \#####
 ##title
+
 //enter project title here
 
+
 ##description
+
 //enter project description here
 
+
 ##link
+
 //enter link to project page here
 
+
 ##image
+
 //enter link to image here
 
 ### Publications Page
@@ -61,18 +72,27 @@ The below templates are for ease of use when editing the Google Docs. Copy them 
 \#####
 
 ##title
+
 //enter publication title here
 
+
 ##authors
+
 //enter authors here
 
+
 ##abstract
+
 //enter abstract here
 
+
 ##citation
+
 //enter BibTeX citation here
 
+
 ##link
+
 //enter link to publication here
 
 
@@ -84,13 +104,16 @@ The below templates are for ease of use when editing the Google Docs. Copy them 
 
 //enter first and last name here
 
+
 ##subtitle
 
 //enter subtitle or position here
 
+
 ##description
 
 //enter a bio or description here
+
 
 ##image
 
