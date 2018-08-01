@@ -1,6 +1,6 @@
-# Systems-Lab-Website
+# Adaptive Decision Systems Lab Website
 
-## IMPORTANT LINKS:
+## EDITING INSTRUCTIONS:
 The following links correspond to the various Google Docs whose text populates the website in real time.
 
 [**News Page**](https://docs.google.com/document/d/1Rdm4961Shwz-_J6kVqRcYmdPRxjoSYab1yifatcp6Cw/edit)
@@ -16,3 +16,9 @@ The following links correspond to the various Google Docs whose text populates t
 1. **"##"** denotes a piece of content, such as a header, an image, etc.
 2. **"#####"** denotes the end of a group of content, such as a publication or bio
 3. **"$$$$$"** denotes the end of a section of content groups
+
+### Editing Best Practices:
+1. Copy and paste each content group template below to ensure the document is parsed correctly
+2. Please do not add or remove pieces (##) or groups (#####/$$$$$) from the template -- if you want to omit content, simply leave it blank
+3. Please fill in any content on the line BELOW each ## or ##### denotation or there may be errors uploading your changes 
+4. Changes you make to the Google Doc will be updated in real time, so make sure all your content is ready to go live!
