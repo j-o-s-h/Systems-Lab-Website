@@ -81,13 +81,17 @@ The below templates are for ease of use when editing the Google Docs. Copy them 
 \#####
 
 ##name
+
 //enter first and last name here
 
 ##subtitle
+
 //enter subtitle or position here
 
 ##description
+
 //enter a bio or description here
 
 ##image
+
 //enter a link to an image of yourself
