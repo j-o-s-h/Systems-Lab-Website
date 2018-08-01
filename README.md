@@ -22,3 +22,20 @@ The following links correspond to the various Google Docs whose text populates t
 2. Please do not add or remove pieces (##) or groups (#####/$$$$$) from the template -- if you want to omit content, simply leave it blank
 3. Please fill in any content on the line BELOW each ## or ##### denotation or there may be errors uploading your changes 
 4. Changes you make to the Google Doc will be updated in real time, so make sure all your content is ready to go live!
+
+## PAGE TEMPLATES
+
+### News Page
+
+#####
+##headline
+//enter headline here
+
+##date
+//enter date here
+
+##description
+//enter description here
+
+##link
+//enter link here
