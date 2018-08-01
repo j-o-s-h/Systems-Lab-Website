@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Website</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Palanquin+Dark">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/design.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+</head>
+
+<body>
+    <div class="modal fade" role="dialog" tabindex="-1" id="cite_modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Cite This Publication</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <p>Please copy your citation below:</p><input type="text" value="@book{sutton1998introduction,   title={Introduction to reinforcement learning},   author={Sutton, Richard S and Barto, Andrew G},   volume={135},   year={1998},   publisher={MIT press Cambridge} }"
+                        id="citeBox" style="width:30vw;"></div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button" onclick="copyToClip()">Copy To Clipboard</button></div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top navbar-main">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><img src="assets/img/uva%20logo.png" width="70%"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html"><i class="fa fa-home"></i></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="research.html">Research</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="publications.html">Publications</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="personnel.html">Personnel</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="page_header">
+        <h2>Publications</h2>
+    </div>
+    <div class="article-list">
+        <div class="container">
+            <div class="row articles" id="publication_list"><template id="pub-template">
+<div class="col-sm-6 col-md-4 item">
+    <h5 class="name">Article Title</h5>
+    <p class="authors">Authors</p>
+    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+    <p hidden class="citation">Error: no citation exists!</p>
+    <div class="row">
+        <div class="col-sm-2 offset-sm-3"><a href="#" class="action"><i class="material-icons article_ico cite_btn" data-target="#cite_modal" data-toggle="modal" onclick="setCitationBox(this.id)">subject</i></a></div>
+        <div class="col-sm-2 offset-lg-0"><a href="#" target="_blank" class="action link"><i class="material-icons article_ico">link</i></a></div>
+        <div class="col-sm-2 offset-lg-0"><a href="#" target="_blank" class="action pdf"><i class="material-icons article_ico">picture_as_pdf</i></a></div>
+    </div>
+</div>
+</template></div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <p class="text-center" style="font-size:20px;">Adaptive Decision Systems Lab</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://engineering.virginia.edu/departments/systems-and-information-engineering" target="_blank">Department of Systems &amp; Information Engineering</a></li>
+                <li class="list-inline-item"><a href="https://engineering.virginia.edu/" target="_blank">School of Engineering &amp; Applied Science</a></li>
+                <li class="list-inline-item"><a href="http://www.virginia.edu/" target="_blank">University of Virginia</a></li>
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"></li>
+            </ul>
+            <p class="copyright">151 Engineer's Way, Charlottesville, VA 22911<br></p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/citationFuncs.js"></script>
+    <script src="assets/js/loadBios.js"></script>
+    <script src="assets/js/loadNews.js"></script>
+    <script src="assets/js/loadProjects.js"></script>
+    <script src="assets/js/loadPublications.js"></script>
+</body>
+
+</html>

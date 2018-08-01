@@ -1,0 +1,167 @@
+.heading {
+  background-color:#0C275C;
+  color:white;
+  border-bottom:4px solid #E57200;
+}
+
+.topbox {
+  overflow:hidden;
+  height:35vw;
+}
+
+.mainbox {
+  margin:32px;
+}
+
+.titlebox {
+  width:70vw;
+  top:30.3vw;
+  left:-30px;
+  z-index:1;
+  height:9vw;
+  position:absolute;
+}
+
+.darkshade {
+  background-color:rgba(0,0,0,0.6);
+}
+
+.parallelogram {
+  transform:skew(-20deg);
+}
+
+.navbar-main {
+  background-color:#0C275C;
+  color:white;
+  border-bottom:4px solid #E57200;
+  position:sticky;
+  padding-left:8vw;
+  padding-right:8vw;
+}
+
+.navbar-dark .navbar-brand {
+  margin:0;
+  padding:0px;
+  width:15%;
+}
+
+.fa.fa-home {
+  font-size:25px;
+}
+
+.nav-item {
+  padding:8px;
+  padding-right:32px;
+  font-size:20px;
+}
+
+.article_ico {
+  color:gray;
+}
+
+.cite_btn:hover {
+  color:white;
+  border:none;
+  background-color:#939393;
+}
+
+.graybox {
+  background-color:#939393;
+  width:100%;
+}
+
+h1 {
+  color:white;
+  position:absolute;
+  z-index:100;
+  top:32vw;
+  left:7vw;
+  font-size:4vw;
+  font-family:'Muli';
+}
+
+h2 {
+  font-family:'Muli';
+  padding-top:40px;
+  margin-bottom:40px;
+}
+
+h3 {
+  font-family:'Muli';
+}
+
+p {
+  font-family:'Hind';
+}
+
+.navbar-brand img {
+  width:12vw;
+}
+
+.project_group {
+  background-image:url("../../assets/img/olsson.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  border-radius:0px;
+  color:white;
+  padding-left:64px;
+  padding-right:64px;
+  margin-bottom:32px;
+}
+
+.btn-primary {
+  background-color:#0C275C;
+  border:none;
+}
+
+.btn-primary:hover {
+  background-color:#E57200;
+  border-color:#E57200;
+}
+
+.subtitle {
+  text-transform:uppercase;
+  font-size:small;
+  font-weight:bold;
+  color:lightgray !important;
+  letter-spacing:2px;
+}
+
+.page_header {
+  text-align:center;
+  padding-left:30vw;
+  padding-right:30vw;
+}
+
+.page_header h2 {
+  font-weight:bold;
+}
+
+.page_header p {
+  color:gray;
+}
+
+.footer-basic {
+  font-family:'Hind';
+}
+
+h5 {
+  color:#111;
+  font-family:'Hind';
+  font-size:24px !important;
+  font-weight:700;
+  padding:30px 30px;
+  text-align:center;
+  text-transform:uppercase;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+
+.news_item {
+  margin-top:64px;
+  margin-bottom:64px;
+  padding-left:64px;
+  padding-right:64px;
+}
+
