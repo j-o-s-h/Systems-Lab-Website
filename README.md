@@ -104,7 +104,6 @@ The below templates are for ease of use when editing the Google Docs. Copy them 
 
 //enter first and last name here
 
-\
 
 ##subtitle
 
