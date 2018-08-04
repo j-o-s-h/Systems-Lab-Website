@@ -56,6 +56,35 @@ function createBioCol(section_target, index, bio_data){
     //set image
     tmpl.querySelector('.portrait').src = dict.image;
     
+    //set link if exists
+    if (dict.link != undefined)
+        tmpl.querySelector('.link').href = dict.link;
+    else
+        tmpl.querySelector('.link').remove();
+    
+    //set facebook if exists
+    if (dict.facebook != undefined)
+        tmpl.querySelector('.facebook').href = dict.facebook;
+    else
+        tmpl.querySelector('.facebook').remove();
+    
+    //set instagram if exists
+    if (dict.instagram != undefined)
+        tmpl.querySelector('.instagram').href = dict.instagram;
+    else
+        tmpl.querySelector('.instagram').remove();
+    
+    //set twitter if exists
+    if (dict.twitter != undefined)
+        tmpl.querySelector('.twitter').href = dict.twitter;
+    else
+        tmpl.querySelector('.twitter').remove();
+    
+    //set linkedin if exists
+    if (dict.linkedin != undefined)
+        tmpl.querySelector('.linkedin').href = dict.linkedin;
+    else
+        tmpl.querySelector('.linkedin').remove();
     
     //append finished column to the DOM
     document.getElementById("section-" + section_target).appendChild(tmpl);
